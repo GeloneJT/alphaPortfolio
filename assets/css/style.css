@@ -1,14 +1,9 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
-#header {
-    position: relative;
-    background-color: black;
-    text-align: center;
-    padding: 20px;
-    color: blanchedalmond;
-}
 
 ul {
     list-style-type:none;
@@ -58,8 +53,41 @@ li li a.fa-spotify{
     color: white;
 }
 
+li li a.fa-phone{
+    background: #007bb5;
+    color: white;
+}
+
+.masthead{
+    height: 300px;
+    background-image: linear-gradient(to right bottom, #12232e 0%, #eefbfb 100%);
+    position: relative;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    padding: 75px;
+    text-align: center;
+}
+
+#about{
+    background-color: #12232E;
+    font-size: 20px;
+    padding: 14px 16px;
+    color: blanchedalmond;
+}
+
+#projects{    
+    background-color: #007CC7;
+    font-size: 20px;
+    padding: 14px 16px;
+    color: blanchedalmond;
+}
+
+p{
+    height: 500px;
+}
+
 #footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
