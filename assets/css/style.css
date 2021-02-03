@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 
@@ -58,13 +58,30 @@ li li a.fa-phone{
     color: white;
 }
 
+li li a.fa-twitter{
+    background: #007bb5;
+    color: white;
+    }
+
 .masthead{
     height: 300px;
-    background-image: linear-gradient(to right bottom, #12232e 0%, #eefbfb 100%);
+    background-image: linear-gradient(to right bottom, #12232e 0%, #eefbfb 100%), url();
     position: relative;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
     padding: 75px;
+    text-align: center;
+}
+
+.container {
+    background-color: #EEFBFB;
+    display: flexbox;
+}
+
+.container > div{
+    background-color:#e8f9fd;
+    padding: 20px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -89,13 +106,33 @@ li li a.fa-phone{
     color:blanchedalmond
 }
 
+form {
+    margin: 50px;
+}
+
+.form-control{
+    width: 600px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+    color: black;
+    font-size: 20px;
+}
+
+
+form.submit{
+    height: 20px;
+    color: black;
+}
+
 p{
-    height: 300px;
     overflow:auto;
 }
 
 #footer {
-    position: relative;
+    position:relative;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
