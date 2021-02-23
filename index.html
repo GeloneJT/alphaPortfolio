@@ -5,79 +5,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jelani Thomas alpha Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="images" href="assets/images/" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
 </head>
-
+<!-- Intro to page -->
 <body>
     <header>
-        <div id="topnav">
-            <nav>
-                <ul class="navigation">
+        <div class="container">
+                <ul class="hyper-link">
                     <li id="home" style="float:left"><a class="active">JT</a></li>
-                    <li><a href="#social media">SOCIAL MEDIA</a></li>
-                    <li><a href="#contact_me">CONTACT ME</a></li>
-                    <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#social media">social media</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#about">about</a></li>
                 </ul>
-            </nav>
         </div>
-
-        <div class="masthead">
-            
-            <h1><span style="color: #12232E; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 40px; text-shadow: 2px 2px ivory;">WELCOME,<br>
-                I'm Jelani</span>
-                <p style="text-shadow: 2px 2px ivory;">Innovative Full Stack Developer and Designer</p>
-            </h1>
-
+        <div class="masthead">     
+            <video src="ScrollEarth.mp4" muted loop autoplay></video>
+            <h1><span >Welcome,<br>
+                I'm Jelani</span></h1>
+                <h3>Innovative Full Stack Developer and Designer</h3>
         </div>
     </header>
-
-    <div class="container">
-        <div>
-            <h1 id="about">ABOUT</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar egestas libero vel
-                rhoncus. Donec a odio orci. Fusce et arcu ligula. Donec non aliquet turpis. Nunc risus augue, tincidunt
-                id
-                consectetur laoreet, ornare sit amet magna. Donec libero quam, condimentum sed scelerisque nec, eleifend
-                at
-                dolor. Fusce congue mauris et turpis tristique, et rutrum neque suscipit. Nam semper mi ipsum, sed
-                vestibulum mi euismod id. Sed accumsan sapien lectus, at porttitor mi vehicula ac. Curabitur malesuada
-                lacus
-                velit, a semper diam semper in. Suspendisse congue nibh vel dui dictum, quis euismod turpis tempus.
-                Phasellus id lacus imperdiet, suscipit felis sed, cursus nulla. Nam quis ex dapibus tellus rutrum
-                pulvinar
-                ac sit amet massa. Maecenas sit amet ipsum sed ligula aliquam scelerisque. Vestibulum maximus porta
-                nibh, et
-                ornare purus.
-
-                Sed porttitor semper risus, id ultrices urna volutpat at. Donec vitae dui leo. Aenean volutpat, urna
-                eget
-                tincidunt varius, augue lacus elementum est, quis dignissim arcu dui quis elit. Quisque dignissim auctor
-                nibh, sit amet euismod tellus egestas vitae. Mauris magna nibh, dictum aliquam pellentesque eget,
-                pellentesque nec ante. Duis finibus urna ac magna mattis posuere. Cras condimentum, nisi eget interdum
-                dignissim, libero metus venenatis tellus, non gravida magna ex eget sem. Praesent semper magna eu lorem
-                sodales sodales. Maecenas id tellus non velit euismod efficitur. Integer nec tortor a metus eleifend
-                consequat quis sit amet sapien. Nullam sem libero, bibendum nec eros eget, luctus imperdiet velit. Proin
-                scelerisque eleifend lectus, et vestibulum enim lobortis vel. Praesent odio tellus, mattis vitae
-                volutpat
-                quis, laoreet et nisl.</p>
+<!-- Headshot with some info -->
+    <main>
+        <div class="container">
+            <h1 class="section-tag" id="about">About</h1>
+            <div class="about-the-author">
+                <div class="row">
+                  <div class="small-12 medium-4 columns">
+                    <div class="author-image">
+                      <img src="assets\images\ProfileShot.png">
+                    </div>
+                  </div>
+                  <div class="small-12 medium-8 columns">
+                    <h4 class="separator-left">Jelani Thomas</h4>
+                    <p>Looking forward to meeting you. In the mean time check out my work.</p>
+                  </div>
+                </div>
+              </div>     
         </div>
-
-        <div>
-            <h1 id="projects">PROJECTS</h1>
-            <iframe src="https://scratch.mit.edu/projects/474385329/embed" allowtransparency="true" width="485"
-                height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-            <iframe src="https://scratch.mit.edu/projects/474435998/embed" allowtransparency="true" width="485"
-                height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-            <p>
+<!-- Project highlights -->
+        <div class="container">
+            <h1 class="section-tag" id="projects">Projects</h1>
+            <div style="margin: 0;" class="work-feature-block row">
+                <div class="columns medium-7">
+                  <img class="work-feature-block-image" src="assets/images/Coinmap.png" width="400" height="80">
+                </div>
+                <div class="columns medium-5">
+                  <h2 class="work-feature-block-header">CoinMap</h2>
+                  <p>CoinFinder is a Web App that takes an address or location data and runs them through google's geolocation api, gets the coordinates of the user and then runs that - with a search radius to CoinMap api and then obtains the locations within that radius, runs those locations through Google's Places Api and displays the locations on a google map. Using the CoinMap data to list the nearest 10 locations to the user along with many more locations on the map</p>
+                  <h2>Project Details</h2>
+                  <ul>
+                    <li>Uses location to find venues that transact with cryptocurreny</li>
+                    <li>Google Maps and CoinMap APIs used</li>
+                    <li>HTML/CSS/JavaScript/Zurb Foundation used</li>
+                    <li>Finished phase 1 of developement</li>
+                  </ul>
+                </div>
+            </div>
+            <div style="margin: 0;" class="work-feature-block row">
+                <div class="columns medium-7">
+                  <img class="work-feature-block-image" src="assets\images\PwGen.png"/>
+                </div>
+                <div class="columns medium-5">
+                  <h2 class="work-feature-block-header">Password Generator</h2>
+                  <p>A  web-based password generator.</p>
+                  <h2>Project Details</h2>
+                  <ul>
+                    <li>Generates a password based on what the user request based on prompts</li>
+                    <li>Randomizes a password from 8 to 128 characters</li>
+                    <li>Written prodoimantly using JavaScript</li>
+                    <li><a href="https://gelonejt.github.io/pwGeneratorJS/" target="_blank">Pasword Generator</a></li>
+                  </ul>
+                </div>
+            </div>
+            <div style="margin: 0;" class="work-feature-block row">
+                <div class="columns medium-7">
+                  <img class="work-feature-block-image" src="assets\images\WrkSchedu.png"/>
+                </div>
+                <div class="columns medium-5">
+                  <h2 class="work-feature-block-header">Project Description</h2>
+                  <p>A web-based schedule track</p>
+                  <h2>Project Details</h2>
+                  <ul>
+                    <li>Uses moment.js to track "real-time" time of day</li>
+                    <li>User inputs a to-do task and localstorage keeps data that persists even on page refresh</li>
+                    <li>The color of the each field change based on time of day ot indicate previous, current, and incoming time</li>
+                    <li><a href="https://gelonejt.github.io/workDaySched2021/" target="_blank">Work Day Scheduler</a></li>
+                  </ul>
+                </div>
+            </div>
         </div>
-
-        <div>
-            <h1 id="contact_me">CONTACT ME</h1>
-
-            <div class="contact_me_form">
+<!-- Ocntact section -->
+        <div class="container">
+            <h1 class="section-tag" id="contact">Contact</h1>
+            <div class="grid-x padding-x align-center">
                 <form id="contact_me_form" method="" action="">
                     <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
                     <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
@@ -87,11 +114,10 @@
                 </form>
             </div>
         </div>
-    </div>
-
-    <div>
-        <div>
-            <ul id="footer">
+    </main>
+<!-- Social media links -->
+        <div class="container" id="social media">
+            <ul class="hyper-link">
                 <li><a href="https://github.com/GeloneJT" class="fa fa-github" target="_blank"> GITHUB</a></li>
                 <li><a href="https://www.linkedin.com/in/jelani-thomas-19395b117/" class="fa fa-linkedin"
                         target="_blank"> LINKEDIN</a></li>
@@ -103,7 +129,6 @@
                 <li style="float: right;"><a href="tel:000-000-0000" class="fa fa-phone"> 000-000-0000</a></li>
             </ul>
         </div>
-    </div>
 </body>
 
 
